@@ -1,0 +1,14 @@
+.link {
+    display: flex;
+   color: #2A7AE4;
+   font-size: 16px;
+   font-weight: 700;
+   display: inline;
+}
+
+.link-principal::after {
+    padding-left: 1rem;
+    content: url('./../img/cetaDireita.png');
+    background-repeat: no-repeat;
+    
+}

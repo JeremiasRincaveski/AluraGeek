@@ -1,0 +1,10 @@
+.produto {
+    width: 15%;
+}
+
+@media screen and (max-width: 768px) {
+    .produto {
+        padding-bottom: 3rem;
+        width: 24%;
+    }
+}

@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  background-color: var(--fundoNav);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 100svw;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,12 @@
+.produtos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .produtos div:nth-child(6), .produtos div:nth-child(7){
+        display: none;
+    }
+}

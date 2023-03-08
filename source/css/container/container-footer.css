@@ -1,0 +1,19 @@
+footer {
+    background-color: var(--fundoFooter);
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container-footer {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 450px;
+    }
+}

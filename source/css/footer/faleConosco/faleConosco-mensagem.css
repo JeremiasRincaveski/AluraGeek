@@ -1,0 +1,11 @@
+.faleConosco-mensagem {
+    padding: 1rem;
+    width: 100%;
+    height: 82px;
+    background-color: var(--fundoEmail);
+}
+
+#mensagem {
+    width: 100%;
+    height: 100%;
+}

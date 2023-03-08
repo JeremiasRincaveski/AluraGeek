@@ -1,0 +1,5 @@
+.banner-descricao {
+    color: var(--descricao);
+    font-weight: 700;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,7 @@
+.feitoPor {
+    padding: 2rem;
+    background-color: var(--fundoNav);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

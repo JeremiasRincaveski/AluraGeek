@@ -1,0 +1,8 @@
+.faleConosco-nome {
+    background-color: var(--fundoNome);
+    padding: .5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}

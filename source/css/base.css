@@ -1,0 +1,21 @@
+:root {
+  --link: #2a7ae4;
+  --tituloProduto: #E5E5E5;
+  --produto: #464646;
+  --titulo: #ffffff;
+  --descricao: #ffffff;
+  --rodape: #464646;
+  --rodapeVariacao: #a2a2a2;
+  --input: #a2a2a2;
+  --textoPadrao: #ffffff;
+  --fundoNav: #FFFFFF;
+  --fundoMain: #E5E5E5;
+  --fundoNavInput: #F5F5F5;
+  --fundoFooter: #EAF2FD;
+  --fundoNome: #FFFFFF;
+  --fundoEmail: #FFFFFF;
+}
+
+html {
+  font-family: raleway, sans-serif;
+}

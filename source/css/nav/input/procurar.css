@@ -1,0 +1,9 @@
+.procurar {
+    background-color: var(--fundoNavInput);
+    border-radius: 15px;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;   
+    display: flex;
+    align-items: center;
+    height: 40px;
+}

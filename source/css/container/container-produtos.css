@@ -1,0 +1,12 @@
+main {
+    background-color: var(--fundoMain);
+}
+
+.container-produtos {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    background-color: var(--fundoMain);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}

@@ -1,0 +1,14 @@
+.footer-ul li{
+    font-size: 16px;
+    color: var(--rodape);
+    font-weight: 500;
+    padding-bottom: 1.8rem;
+    margin-right: 12rem;
+    margin-left: 12rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-ul li{
+        margin: 0;
+    }
+}

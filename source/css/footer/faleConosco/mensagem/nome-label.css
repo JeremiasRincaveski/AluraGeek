@@ -1,0 +1,6 @@
+.nome-label {
+    font-weight: 400;
+    color: var(--rodapeVariacao);
+    padding-bottom: .5rem;
+    font-size: 12px;
+}
