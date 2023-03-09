@@ -5,6 +5,14 @@
     padding-bottom: 1.8rem;
     margin-right: 12rem;
     margin-left: 12rem;
+    flex-shrink: 3;
+}
+
+@media screen and (max-width: 1200px){
+    .footer-ul li {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
