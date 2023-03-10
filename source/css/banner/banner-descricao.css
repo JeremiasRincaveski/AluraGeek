@@ -3,3 +3,10 @@
     font-weight: 700;
     padding-bottom: 1rem;
 }
+
+@media screen and (max-width: 575px) {
+    .banner-descricao {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

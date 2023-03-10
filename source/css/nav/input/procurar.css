@@ -7,3 +7,10 @@
     align-items: center;
     height: 40px;
 }
+
+@media screen and (max-width: 575px) {
+    .procurar {
+        background-color: initial;
+        order: 3;
+    }
+}

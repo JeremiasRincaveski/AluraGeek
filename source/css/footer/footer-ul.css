@@ -20,3 +20,14 @@
         margin: 0;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .footer-ul li{
+        margin: 0;
+        text-align: center;
+    }
+
+    .footer-ul {
+        margin-top: 1rem;
+    }
+}

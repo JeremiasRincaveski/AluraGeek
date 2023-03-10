@@ -1,3 +1,9 @@
 .procurar-input {
     font-size: 14px;
 }
+
+@media screen and (max-width: 575px) {
+    .procurar-input {
+        display: none;
+    }
+}
