@@ -4,6 +4,7 @@
     justify-content: space-between;
     margin-left: .6rem;
     align-items: center;
+    background-color: var(--fundoNav);
 }
 
 @media screen and (max-width: 575px) {

@@ -1,0 +1,10 @@
+.login-campo {
+    padding: 1rem .5rem;
+    background-color: var(--fundoNome);
+    margin-bottom: 1.2rem;
+    color: var(--rodapeVariacao);
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0 2px 5px;
+    width: 100%;
+}

@@ -2,4 +2,5 @@
     background-image: url('./../../img/banner.png');
     background-size: cover;
     background-position: center;
+    object-fit: fill;
 }
