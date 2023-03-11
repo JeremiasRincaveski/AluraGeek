@@ -5,3 +5,16 @@
     background-color: var(--fundoNav);
     margin-bottom: 1rem;
 }
+
+.adicionarProduto-campo label {
+    padding-bottom: .5rem;
+    color: var(--rodapeVariacao);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.adicionarProduto-campo input {
+    color: var(--rodape);
+    font-size: 16px;
+    font-weight: 400;
+}

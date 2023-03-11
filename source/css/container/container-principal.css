@@ -1,0 +1,13 @@
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem 0 0 1rem;
+    color: var(--rodape);
+}
+
+@media screen and (max-width:500px) {
+    .container-principal {
+        padding-top: 1rem;
+    }
+}
