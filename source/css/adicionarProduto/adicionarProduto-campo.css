@@ -1,0 +1,7 @@
+.adicionarProduto-campo {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--fundoNav);
+    margin-bottom: 1rem;
+}

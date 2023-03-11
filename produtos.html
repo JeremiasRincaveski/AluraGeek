@@ -5,16 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700;900&display=swap"
-    rel="stylesheet">
+    <title>Login AluraGeek</title>
     <!-- AREA PADRAO-->
     <link rel="stylesheet" href="./source/css/reset.css">
     <link rel="stylesheet" href="./source/css/base.css">
     <link rel="stylesheet" href="./source/css/container/container.css">
     <link rel="stylesheet" href="./source/css/link.css">
     <link rel="stylesheet" href="./source/css/logo.css">
-    <link rel="stylesheet" href="./source/css/botao.css">
+    <link rel="stylesheet" href="source/css/botao.css">
     <!--AREA DO NAV-->
     <link rel="stylesheet" href="./source/css/nav/nav.css">
     <link rel="stylesheet" href="./source/css/container/container-nav.css">
@@ -22,20 +20,15 @@
     <link rel="stylesheet" href="./source/css/nav/input/procurar-img.css">
     <link rel="stylesheet" href="./source/css/nav/input/procurar-input.css">
     <link rel="stylesheet" href="./source/css/nav/nav-button.css">
-    <!--AREA DO BANNER-->
-    <link rel="stylesheet" href="./source/css/banner/banner.css">
-    <link rel="stylesheet" href="./source/css/container/container-banner.css">
-    <link rel="stylesheet" href="./source/css/banner/banner-titulo.css">
-    <link rel="stylesheet" href="./source/css/banner/banner-descricao.css">
-    <link rel="stylesheet" href="./source/css/banner/banner-button.css">
     <!--AREA DOS PRODUTOS-->
-    <link rel="stylesheet" href="./source/css/container/container-produtos.css">
-    <link rel="stylesheet" href="./source/css/produtos/produtos.css">
-    <link rel="stylesheet" href="./source/css/produtos/produtos-titulo.css">
-    <link rel="stylesheet" href="./source/css/produtos/produto/produto.css">
+    <link rel="stylesheet" href="./source/css/container/container-todosProdutos.css">
+    <link rel="stylesheet" href="./source/css/todosProdutos/todosProdutos-nav.css">
+    <link rel="stylesheet" href="./source/css/todosProdutos-navBotao.css">
+    <link rel="stylesheet" href="./source/css/todosProdutos/todosProdutos-main.css">
     <link rel="stylesheet" href="./source/css/produtos/produto/produto-img.css">
     <link rel="stylesheet" href="./source/css/produtos/produto/produto-nome.css">
     <link rel="stylesheet" href="./source/css/produtos/produto/produto-preco.css">
+    <link rel="stylesheet" href="./source/css/produtos/produto/produto.css">
     <!--AREA DO FOOTER-->
     <link rel="stylesheet" href="./source/css/container/container-footer.css">
     <link rel="stylesheet" href="./source/css/footer/footer-ul.css">
@@ -51,29 +44,21 @@
 
 <body>
     <nav class="nav container">
-        <img class="logo" src="./source/img/logoAlura.png" alt="logo da alura">
+        <img class="nav-logo" src="./source/img/logoAlura.png" alt="logo da alura">
         <div class="container-nav">
             <div class="procurar">
                 <input class="procurar-input" type="text" placeholder="O que deseja encontrar?">
                 <img class="procurar-img" src="./source/img/lupa.png" alt="Lupa">
             </div>
-            <button class="nav-button">Login</button>
         </div>
     </nav>
-    <div class="banner">
-        <div class="container container-banner">
-            <h1 class="banner-titulo">Dezembro Promocional</h1>
-            <p class="banner-descricao">Produtos selecionados com 33% de desconto</p>
-            <button class="banner-button botao">Ver Consoles</button>
-        </div>
-    </div>
-    <main>
-        <div class="container container-produtos">
-            <div class="produtos">
-                <div class="produtos-titulo">
-                    <h2>Star Wars</h2>
-                    <a class="link link-principal" href="#">ver tudo</a>
-                </div>
+    <main class="container-todosProdutos">
+        <div class="container">
+            <div class="todosProdutos-nav">
+                <h1>Todos os produtos</h1>
+                <button class="botao todosProdutos-navBotao">Adicionar produto</button>
+            </div>
+            <div class="todosProdutos-main">
                 <div class="produto">
                     <img class="produto-img" src="./source/img/starWars/starWarsProduto1.png" alt="produto XYZ">
                     <h2 class="produto-nome">Produto XYZ</h2>
@@ -109,12 +94,6 @@
                     <h2 class="produto-nome">Produto XYZ</h2>
                     <p class="produto-preco">R$ 60,00</p>
                     <a class="link" href="#">Ver produto</a>
-                </div>
-            </div>
-            <div class="produtos">
-                <div class="produtos-titulo">
-                    <h2>Consoles</h2>
-                    <a class="link link-principal" href="#">ver tudo</a>
                 </div>
                 <div class="produto">
                     <img class="produto-img" src="./source/img/console/console1.png" alt="controle XYZ">
@@ -152,12 +131,6 @@
                     <p class="produto-preco">R$ 60,00</p>
                     <a class="link" href="#">Ver produto</a>
                 </div>
-            </div>
-            <div class="produtos">
-                <div class="produtos-titulo">
-                    <h2>Diversos</h2>
-                    <a class="link link-principal" href="#">ver tudo</a>
-                </div>
                 <div class="produto">
                     <img class="produto-img" src="./source/img/diversos/diversos1.png" alt="camisa atari">
                     <h2 class="produto-nome">Camisa Atari</h2>
@@ -194,6 +167,7 @@
                     <p class="produto-preco">R$ 60,00</p>
                     <a class="link" href="#">Ver produto</a>
                 </div>
+
             </div>
         </div>
     </main>

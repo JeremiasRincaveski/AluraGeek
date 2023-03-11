@@ -1,0 +1,22 @@
+.todosProdutos-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.todosProdutos-nav h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1000px){
+    .todosProdutos-nav {
+        flex-direction: column;
+    }
+    
+    .todosProdutos-nav h1 {
+        font-size: 22px;
+    }
+}

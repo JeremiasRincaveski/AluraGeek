@@ -1,0 +1,34 @@
+.todosProdutos-main {
+    padding-top: 0;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+@media screen and  (max-width: 1000px){
+    .todosProdutos-main {
+        gap: 10px;
+    }
+}
+
+@media screen and  (max-width: 770px){
+    .todosProdutos-main {
+        justify-content: flex-start;
+        gap: 8px;
+    }
+}
+
+@media screen and  (max-width: 650px){
+    .todosProdutos-main {
+        gap: 5px;
+    }
+}
+
+@media screen and  (max-width: 400px){
+    .todosProdutos-main {
+        gap: 3px;
+    }
+}
