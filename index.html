@@ -47,6 +47,7 @@
     <link rel="stylesheet" href="./source/css/footer/faleConosco/mensagem/nome-input.css">
     <link rel="stylesheet" href="./source/css/footer/faleConosco/faleConosco-button.css">
     <link rel="stylesheet" href="./source/css/feitoPor.css">
+    <link rel="stylesheet" href="./source/css/input-mensagem-erro.css">
 </head>
 
 <body>
@@ -57,14 +58,14 @@
                 <input class="procurar-input" type="text" placeholder="O que deseja encontrar?">
                 <img class="procurar-img" src="./source/img/lupa.png" alt="Lupa">
             </div>
-            <button class="nav-button">Login</button>
+            <button data-login class="nav-button">Login</button>
         </div>
     </nav>
     <div class="banner">
         <div class="container container-banner">
             <h1 class="banner-titulo">Dezembro Promocional</h1>
             <p class="banner-descricao">Produtos selecionados com 33% de desconto</p>
-            <button class="banner-button botao">Ver Consoles</button>
+            <button data-verPromocao class="banner-button botao">Ver Consoles</button>
         </div>
     </div>
     <main>
@@ -111,7 +112,7 @@
                     <a class="link" href="#">Ver produto</a>
                 </div>
             </div>
-            <div class="produtos">
+            <div class="produtos" id="console">
                 <div class="produtos-titulo">
                     <h2>Consoles</h2>
                     <a class="link link-principal" href="#">ver tudo</a>
@@ -213,12 +214,12 @@
                     <p class="faleConosco-descricao">Fale conosco</p>
                     <div class="faleConosco-nome">
                         <label class="nome-label" for="nome">Nome</label>
-                        <input class="nome-input" type="text" id="nome" placeholder="André Lisboa">
+                        <input  class="nome-input" data-inputNome type="text" id="nome" placeholder="André Lisboa">
                     </div>
                     <div class="faleConosco-mensagem">
-                        <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                        <textarea  name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
                     </div>
-                    <button class="faleConosco-button botao">Enviar mensagem</button>
+                    <button class="faleConosco-button botao" data-enviar>Enviar mensagem</button>
                 </div>
             </div>
         </div>
@@ -228,6 +229,7 @@
             <p>2022</p>
         </div>
     </footer>
+    <script src="./source/js/index.js"></script>
 </body>
 
 </html>

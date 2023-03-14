@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,18 +26,19 @@
     <link rel="stylesheet" href="./source/css/login/login-titulo.css">
     <link rel="stylesheet" href="./source/css/login/login-campo.css">
     <link rel="stylesheet" href="./source/css/login/login-botao.css">
-     <!--AREA DO FOOTER-->
-     <link rel="stylesheet" href="./source/css/container/container-footer.css">
-     <link rel="stylesheet" href="./source/css/footer/footer-ul.css">
-     <link rel="stylesheet" href="./source/css/footer/faleConosco/faleConosco.css">
-     <link rel="stylesheet" href="./source/css/footer/faleConosco/faleConosco-nome.css">
-     <link rel="stylesheet" href="./source/css/footer/faleConosco/faleConosco-descricao.css">
-     <link rel="stylesheet" href="./source/css/footer/faleConosco/faleConosco-mensagem.css">
-     <link rel="stylesheet" href="./source/css/footer/faleConosco/mensagem/nome-label.css">
-     <link rel="stylesheet" href="./source/css/footer/faleConosco/mensagem/nome-input.css">
-     <link rel="stylesheet" href="./source/css/footer/faleConosco/faleConosco-button.css">
-     <link rel="stylesheet" href="./source/css/feitoPor.css">
+    <!--AREA DO FOOTER-->
+    <link rel="stylesheet" href="./source/css/container/container-footer.css">
+    <link rel="stylesheet" href="./source/css/footer/footer-ul.css">
+    <link rel="stylesheet" href="./source/css/footer/faleConosco/faleConosco.css">
+    <link rel="stylesheet" href="./source/css/footer/faleConosco/faleConosco-nome.css">
+    <link rel="stylesheet" href="./source/css/footer/faleConosco/faleConosco-descricao.css">
+    <link rel="stylesheet" href="./source/css/footer/faleConosco/faleConosco-mensagem.css">
+    <link rel="stylesheet" href="./source/css/footer/faleConosco/mensagem/nome-label.css">
+    <link rel="stylesheet" href="./source/css/footer/faleConosco/mensagem/nome-input.css">
+    <link rel="stylesheet" href="./source/css/footer/faleConosco/faleConosco-button.css">
+    <link rel="stylesheet" href="./source/css/feitoPor.css">
 </head>
+
 <body>
     <nav class="nav container">
         <img class="nav-logo" src="./source/img/logoAlura.png" alt="logo da alura">
@@ -50,9 +52,15 @@
     <main class="container-login">
         <h1 class="login-titulo">Iniciar Sessão</h1>
         <div class="login">
-            <input class="login-campo" type="email" placeholder="Escreva seu email">
-            <input class="login-campo" type="password" placeholder="Escreva sua senha">
-            <button class="login-botao botao">Entrar</button>
+            <form action="./produtos.html">
+                <fieldset>
+                    <input required id="email" autocomplete="off" class="login-campo" type="email" name="email" title="campo do email"
+                        placeholder="Escreva seu email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    <input required id="senha" class="login-campo" type="password" name="senha"
+                        placeholder="Escreva sua senha">
+                </fieldset>
+                <button type="submit" class="login-botao botao">Entrar</button>
+            </form>
         </div>
     </main>
     <footer>
@@ -86,5 +94,7 @@
             <p>2022</p>
         </div>
     </footer>
+    <script src="./source/js/login.js"></script>
 </body>
+
 </html>
