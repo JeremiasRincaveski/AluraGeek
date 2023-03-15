@@ -1,0 +1,108 @@
+<div class="produto">
+                    <img class="produto-img" src="./source/img/starWars/starWarsProduto1.png" alt="produto XYZ">
+                    <h2 class="produto-nome">Produto XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/starWars/starWarsProduto2.png" alt="produto XYZ">
+                    <h2 class="produto-nome">Produto XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/starWars/starWarsProduto3.png" alt="produto XYZ">
+                    <h2 class="produto-nome">Produto XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/starWars/starWarsProduto4.png" alt="produto XYZ">
+                    <h2 class="produto-nome">Produto XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/starWars/starWarsProduto5.png" alt="produto XYZ">
+                    <h2 class="produto-nome">Produto XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/starWars/starWarsProduto6.png" alt="produto XYZ">
+                    <h2 class="produto-nome">Produto XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/console/console1.png" alt="controle XYZ">
+                    <h2 class="produto-nome">Controle XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/console/console2.png" alt="produto XYZ">
+                    <h2 class="produto-nome">Controle e console XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/console/console3.png" alt="console XYZ">
+                    <h2 class="produto-nome">Console XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/console/console4.png" alt="controle XYZ">
+                    <h2 class="produto-nome">Controle XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/console/console5.png" alt="console XYZ">
+                    <h2 class="produto-nome">Console XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/console/console6.png" alt="game boy color">
+                    <h2 class="produto-nome">Game Boy Color</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/diversos/diversos1.png" alt="camisa atari">
+                    <h2 class="produto-nome">Camisa Atari</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/diversos/diversos2.png" alt="camisa SNES">
+                    <h2 class="produto-nome">Camisa SNES</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/diversos/diversos3.png" alt="controle e console xyz">
+                    <h2 class="produto-nome">Controle e console XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/diversos/diversos4.png" alt="controle e console XYZ">
+                    <h2 class="produto-nome">Controle e console XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/diversos/diversos5.png" alt="controle e console XYZ">
+                    <h2 class="produto-nome">Controle e console XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>
+                <div class="produto">
+                    <img class="produto-img" src="./source/img/diversos/diversos6.png" alt="controle e console XYZ">
+                    <h2 class="produto-nome">Controle e console XYZ</h2>
+                    <p class="produto-preco">R$ 60,00</p>
+                    <a class="link" href="#">Ver produto</a>
+                </div>

@@ -9,6 +9,6 @@ http.send()
 http.onload = () => {
     const data = JSON.parse(http.response)
     data.forEach(element => {
-        adicionaProduto(element)
+        adicionaProduto(element.url, element.descricao, element.nome, element.preco)
     })
 }
