@@ -56,31 +56,31 @@
         <div class="adicionarProduto">
             <h1 class="adicionarProduto-titulo">Adicionar novo produto</h1>
             <div class="adicionarProduto-login">
-                <form action="produtos.html">
+                <form data-form action="produtos.html">
                     <fieldset>
                         <div class="adicionarProduto-campo">
                             <label for="url">URL da imagem</label>
-                            <input data-tipo="url" required type="url" name="urlInput" id="url" pattern="https?://.+">
+                            <input data-tipo="url"  type="url" name="urlInput" id="url" pattern="https?://.+">
                             <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="adicionarProduto-campo">
                             <label for="categoria">Categoria</label>
-                            <input data-tipo="categoria" required type="text" id="categoria">
+                            <input data-tipo="categoria"  type="text" id="categoria">
                             <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="adicionarProduto-campo">
                             <label for="nome">Nome do produto</label>
-                            <input required type="text" id="nome">
+                            <input data-tipo="nome"  type="text" id="nome">
                             <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="adicionarProduto-campo">
                             <label for="preco">Preco do produto</label>
-                            <input required type="number" id="preco">
+                            <input data-tipo="preco" type="number" id="preco">
                             <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="adicionarProduto-campo">
                             <label for="descricao">Descricao do produto</label>
-                            <textarea required id="descricao"></textarea>
+                            <textarea data-tipo="descricao" id="descricao"></textarea>
                             <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                     </fieldset>
@@ -121,9 +121,12 @@
             <p>2022</p>
         </div>
     </footer>
-    <!--<script src="./source/js/cadastraProduto.js"></script>-->
-    <script type="module" src="./source/js/servidor/service.js"></script>
-
+    <!--
+        <script src="./source/js/cadastraProduto.js"></script>
+        <script type="module" src="./source/js/servidor/service.js"></script>
+    -->
+    <script type="module" src="source/js/servidor/criaProduto.js"></script>
+    <script type="module" src="source/js/servidor/atualizaCliente.js"></script>
 </body>
 
 </html>
