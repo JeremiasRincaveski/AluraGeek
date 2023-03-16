@@ -13,7 +13,7 @@ const divProduto = (id, url, descricao, nome, preco) => {
             <p class="produto-preco">R$ ${preco}</p>
             <a class="link" href="#">Ver produto</a>
             <button class="botaoDeleta" >deleta</button>
-            <a href="./adicionarProduto.html/?id=${id}" class="botaoEdita" >edita</a>
+            <a href="./adicionarProduto.html?id=${id}" class="botaoEdita" >edita</a>
             `
 
     produto.innerHTML = divProduto

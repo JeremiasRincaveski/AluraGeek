@@ -41,6 +41,10 @@ const atualizaProduto = (id, url, categoria,  nome, preco, descricao) => {
     })
 }
 
+const detalhaProduto = (id) => {
+    return fetch(`http://localhost:3000/produto/${id}`).then(resposta => {return resposta.json()})
+}
+
 const deletaProduto = id => {
     return fetch(`http://localhost:3000/produto/${id}`, {
         method: 'DELETE'
@@ -51,5 +55,6 @@ export const service = {
     listaProduto,
     criaProduto,
     deletaProduto,
-    atualizaProduto
+    atualizaProduto,
+    detalhaProduto
 }
